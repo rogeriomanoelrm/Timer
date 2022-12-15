@@ -1,0 +1,90 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    
+}
+
+
+body{
+    background-color: black;
+}
+
+
+.watch{
+    text-align: center;
+    background-color: rgb(18, 18, 104);
+    width: 100%;
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 1rem ;
+    border-radius: 1rem;
+    
+}
+
+.time{
+    color: azure;
+   font-size: 5rem;
+   font-weight: 300;
+   margin-bottom: 1rem;
+   font-family:Arial, Helvetica, sans-serif
+
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  0.5rem;
+    
+}
+
+.controls button{
+    margin:  0 0.5rem;
+
+}
+
+#iniciar{
+    background-color: rgb(19, 231, 37);
+    font-size: 20px;
+    width: 130px;
+    border-radius: 0.5rem;
+
+}
+
+#cancelar{
+    background-color: rgb(19, 231, 37);
+    font-size: 20px;
+    width: 180px;
+    border-radius: 0.5rem;
+}
+.button:active{
+    background-color: rgb(19, 231, 37);;
+
+}
+
+.alarm{
+    background-color: rgb(19, 231, 37);
+    font-size: 20px;
+    width: 100px;
+    border-radius: 0.5rem;
+    text-align: center;
+    }
+    
+    .alarm2{
+        background-color: rgb(19, 231, 37);
+        font-size: 20px;
+        width: 100px;
+        border-radius: 0.5rem;
+        text-align: center;
+
+        }
+    
+        .alarm3{
+            background-color: rgb(19, 231, 37);
+            font-size: 20px;
+            width: 120px;
+            border-radius: 0.5rem;
+            text-align: center;
+
+            }
